@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background: #fdfbfa;
+    padding: 25px 50px;
+    font-size: 1.6em;
+    font-weight: 500;
+  }
+  header {
+    width: 100%;
+    height: 500px;
+    border-top-left-radius: 16px; /* use 4 pixel increments */
+    border-top-right-radius: 16px;
+    border: 3px solid #c5a988;
+    background: url('../assets/images/background.png');
+    background-size: cover;
+    background-position: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 3em;
+    color: #272525;
+    text-shadow: 2px 2px 7px #f2edd7;
+  }
+    header > p {
+      color: rgb(28, 30, 28);
+      margin-top: -25px;
+      background: rgba(233, 226, 133, 0.308);
+    }
+  section {
+    width: 100%;
+    min-height: 300px;
+    padding: 100px 50px;
+    border: 3px solid #c5a988;
+  }
+  #aboutSection {
+    background: #f0dfcf;
+    color: #333;
+    font-size: 1.2em;
+  }
+    .fancyHeading {
+      font-family: 'Tiny5', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-bottom: 20px;
+      text-decoration: underline;
+    }
+  /*
+    #000 - black
+    #f00 - red
+    #0f0 - green
+    #00b - blue
+    #fff - white
+  */
+  #careerGoals {
+    background: #ebd3a7;
+    color: #131212;
+    font-size: 1.2em;
+    padding-left: 100px;
+  }
+  #workSamples {
+    background: #684020;
+    color: #fffcfc;
+    text-align: center;
+  }
+    .thumbnail {
+      width: 20%;
+      border: 3px solid #272625;
+      border-radius: 16px;
+      box-shadow: 2x 3px 5px #e0be6e;
+    }
+  #contact {
+    background: #caac8b;
+    color: #0b0a0a;
+    text-align: center;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-size: 1.2em;
+  }
+    #contact > a:link {
+      color: #fff;
+    }
+  footer {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: .9em;
+    color: #5a2f05;
+  }
