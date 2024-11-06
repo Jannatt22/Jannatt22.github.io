@@ -7,7 +7,7 @@
   }
   body {
     background: #444;
-    padding: 25px 40px;
+    padding: 25px 50px;
     font-size: 1.6em;
     font-weight: 500;
   }
@@ -25,7 +25,7 @@
     font-style: normal;
     text-align: center;
     padding-top: 150px;
-    font-size: 3em;
+    font-size: 2em;
     color: #0e0d0d;
     text-shadow: 2px 2px 7px #333;
   }
@@ -33,6 +33,7 @@
       color: rgb(15, 16, 15);
       margin-top: -25px;
       background: rgba(255, 255, 255, .33);
+      font-size: 0.80em;
     }
   section {
     width: 100%;
@@ -47,7 +48,7 @@
   }
     .fancyHeading {
       font-family: 'Tiny5', sans-serif;
-      font-weight: 400;
+      font-weight: 300;
       font-style: normal;
       margin-bottom: 20px;
       text-decoration: underline;
