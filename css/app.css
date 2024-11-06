@@ -7,7 +7,7 @@
   }
   body {
     background: #444;
-    padding: 25px 50px;
+    padding: 25px 40px;
     font-size: 1.6em;
     font-weight: 500;
   }
@@ -21,7 +21,7 @@
     background-size: cover;
     background-position: center;
     font-family: 'Tiny5', sans-serif;
-    font-weight: 400;
+    font-weight: 250;
     font-style: normal;
     text-align: center;
     padding-top: 150px;
